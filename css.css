@@ -1,0 +1,68 @@
+body {
+  background-color: #070d29;
+  font-family: 'Source Code Pro', monospace;
+  color: rgb(255, 255, 255);
+  justify-content: center;
+  box-sizing: border-box;
+}
+.Webhead{
+  padding-left: 50px;
+  padding-top: 20px;
+}
+ 
+.absolute{
+  position: absolute;
+  top: 50px !important;
+  inset: 0;
+  justify-content: center;
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.bg-shape1{
+  width: 400px;
+  height: 400px;
+  border-radius: 9999px;
+  position: relative;
+  animation: one 10s infinite;
+}
+
+.bg-shape2{
+  width: 300px;
+  height: 300px;
+  border-radius: 9999px;
+  position: relative;
+  animation: one 10s infinite;
+  
+}
+@keyframes one{
+  0%{left: 0px; top: 0px}
+  25%{left: 500px; top: 100px}
+  50%{left: 100px; top: 50px}
+  75%{left: 500px; top: 100px}
+  100%{left: 0px; top: 0px}
+}
+
+.opacity-50{
+  opacity: .5;
+}
+.bg-blur{
+  filter: blur(90px);
+}
+
+.bg-teal{
+  background-color: #5ce1e6;
+}
+
+.bg-primary{
+  background-color: #ff5757;
+}
+
+.bg-purple{
+  background-color: #ffde59;
+}
+
